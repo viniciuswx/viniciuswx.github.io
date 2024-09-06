@@ -8,19 +8,19 @@ Olá! Meu nome é Vinicius e esse é o meu portfólio.
 ## 📃 LAYOUT
 
 <p align="center">
-  <a href="https://viniciuswx.github.io/freelance-finder/">
+  <a href="https://viniciuswx.github.io/">
     <img alt="" src="prints-page/home-page.png">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://viniciuswx.github.io/freelance-finder/">
+  <a href="https://viniciuswx.github.io/sobre.html">
     <img alt="" src="prints-page/about-page.png">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://viniciuswx.github.io/freelance-finder/">
+  <a href="https://viniciuswx.github.io/projetos.html">
     <img alt="" src="prints-page/projects-page.png">
   </a>
 </p>
