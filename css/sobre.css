@@ -1,0 +1,125 @@
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.sobre-mim {
+    background-color: transparent;
+    color: #fff;
+    max-width: 700px;
+    padding: 2rem;
+
+	border: 3px solid #fff;
+}
+
+.sobre-mim .descricao {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #fff;
+}
+
+.descricao img {
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 3px solid #fff;
+    transition: all .3s ease;
+}
+
+.sobre-mim .descricao .info-sobre {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sobre-mim .descricao .info-sobre h1 { font-size: 2rem; }
+
+.sobre-mim .descricao .info-sobre p { font-size: 1.25rem; }
+
+.sobre-mim .descricao .info-sobre p a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.25rem;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.habilidades .desc h1 { font-size: 1.75rem; }
+
+.tecnologias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .25rem;
+}
+
+.tecnologia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+}
+
+.tecnologia span {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.projects-button h1 {
+    text-align: end;
+}
+
+.projects-button a {
+    color: white;
+    transition: all .3s;
+}
+
+.projects-button a:hover {
+    color: red;
+}
+
+.obs { cursor: help; }
+
+@media screen and (max-width: 768px){
+    .sobre-mim .descricao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-mim .descricao .info-sobre {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sobre-mim .descricao .info-sobre {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .habilidades .desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .habilidades .tecnologias {
+        display: flex;
+        flex-direction: column;
+    }
+}

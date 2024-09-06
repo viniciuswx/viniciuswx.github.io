@@ -1,0 +1,123 @@
+h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+main .projetos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
+
+.intro {
+	height: 95px;
+}
+
+main .projeto-item {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem 2.5rem;
+	gap: 2rem;
+	width: 350px;
+	transition: all .3s cubic-bezier(0.9, 1, 0, 0);
+	border: 3px solid #fff;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+main .projeto-item:hover {
+	box-shadow: none;
+	transform: scale(1.05) translate(0, -5px);
+}
+
+.projeto-item .intro img {
+	width: 60px;
+}
+
+.info-projeto {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.info-projeto .botao-code-demo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
+}
+
+.info-projeto .name-desc-projeto p {
+	font-size: 1.25rem;
+}
+
+.info-projeto .botao-code-demo a button {
+	color: #fff;
+	background-color: transparent;
+	padding: .5rem;
+	width: 171px;
+	border: 3px solid #fff;
+	cursor: pointer;
+	font-family: cursive;
+	font-size: 1rem;
+	transition: all .3s ease-in-out;
+}
+
+.info-projeto .botao-code-demo a button:hover {
+	color: #f00;
+}
+
+.projetos .projeto-item .intro {
+	display: flex;
+}
+
+.tecnologias-usadas {
+	position: absolute;
+	transform: translate(-72px, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+	main .projetos {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 4rem;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	main .projetos .projeto-item {
+		padding: 2rem 2.5rem;
+		width: 200px;
+		height: auto;
+	}
+
+	main .projetos .projeto-item .intro {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	main .projetos .projeto-item .intro .name-desc-projeto p {
+		height: auto;
+	}
+
+	main .projetos .projeto-item .intro p {
+		height: 100px;
+	}
+
+	main .projetos .projeto-item .info-projeto .botao-code-demo {
+		margin-top: 3rem;
+		flex-direction: column;
+	}
+}
