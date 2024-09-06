@@ -67,7 +67,7 @@ main .projeto-item:hover {
 	width: 171px;
 	border: 3px solid #fff;
 	cursor: pointer;
-	font-family: cursive;
+	font-family: "SUSE", sans-serif;
 	font-size: 1rem;
 	transition: all .3s ease-in-out;
 }
