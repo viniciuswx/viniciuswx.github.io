@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
 * {
 	user-select: none;
@@ -23,7 +23,7 @@ body {
 	margin: 0;
 	background-color: #121214;
 	color: #fff;
-	font-family: 'Poor Story', cursive, sans-serif;
+	font-family: "SUSE", cursive, sans-serif;
 
 	widows: 100vw;
 	height: 100vh;
