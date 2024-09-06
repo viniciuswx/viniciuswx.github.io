@@ -88,6 +88,21 @@ main .projeto-item:hover {
 	align-items: center;
 }
 
+.linguagens {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.percent {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.percent {
+	font-size: 2rem;
+}
+
 @media screen and (max-width: 1000px) {
 	main .projetos {
 		display: grid;
