@@ -22,7 +22,7 @@ main .projeto-item {
 	padding: 2rem 2.5rem;
 	gap: 2rem;
 	width: 350px;
-	transition: all .3s cubic-bezier(0.9, 1, 0, 0);
+	transition: all .2s linear;
 	border: 3px solid #fff;
 }
 
@@ -69,7 +69,7 @@ main .projeto-item:hover {
 	cursor: pointer;
 	font-family: "SUSE", sans-serif;
 	font-size: 1rem;
-	transition: all .3s ease-in-out;
+	transition: all .2s linear;
 }
 
 .info-projeto .botao-code-demo a button:hover {
