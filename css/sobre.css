@@ -62,14 +62,19 @@ h1, p {
 .tecnologias {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: .25rem;
+    gap: 1rem;
 }
 
-.tecnologia {
+.tecnologia a {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .25rem;
+    transition: all .2s;
+}
+
+.tecnologia a:hover {
+    filter: drop-shadow(2px 5px 5px rgba(255, 255, 255, 0.5));
 }
 
 .tecnologia span {
